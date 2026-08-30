@@ -1,16 +1,3 @@
-# FAQ — Cassaforte / Vault
-
-Sei lingue (IT, EN, FR, DE, ES, PT). Struttura ispirata alla FAQ di un
-concorrente noto (Sgallery), ma riscritta sulla **nostra** realtà: crittografia
-reale, zero account, zero server, nessuna backdoor, e il vault che **non**
-sopravvive alla disinstallazione senza un backup.
-
-Destinazione: scheda Play Store (link in descrizione) **e** schermata in-app
-("Impostazioni → FAQ"). La versione in-app è più sintetica; questa pagina è la
-versione estesa.
-
----
-
 ## IT
 
 ### Accesso e recupero
