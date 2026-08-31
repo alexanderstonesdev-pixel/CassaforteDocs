@@ -1,0 +1,436 @@
+<!doctype html>
+<!--
+  PRIVACY POLICY — pronta per l'hosting statico (GitHub Pages, Netlify, ecc.).
+  Nessuna dipendenza esterna.
+
+  PRIMA DI PUBBLICARE sostituire OVUNQUE i segnaposto tra parentesi quadre:
+    [Alexander Stones]      -> nome e cognome (sviluppatore singolo) o ragione sociale
+    [INDIRIZZO]     -> indirizzo postale del titolare (obbligatorio ex art. 13 GDPR;
+                       può essere l'indirizzo già registrato sull'account Play Console)
+    [EMAIL]         -> email di contatto pubblica (consigliata una dedicata, es. privacy@tuodominio)
+    [PAESE]         -> Paese del titolare (per l'autorità di controllo competente)
+    [URL]           -> URL pubblico definitivo di questa pagina
+
+  Data di entrata in vigore già impostata a 30 agosto 2026: aggiornarla se pubblichi in un'altra data.
+  Far rivedere il testo a un legale prima della pubblicazione.
+-->
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <title>Informativa sulla privacy — Cassaforte</title>
+    <style>
+      :root { color-scheme: light dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0 auto; max-width: 760px; padding: 40px 20px 90px;
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+        color: #16202b; background: #ffffff;
+      }
+      h1 { font-size: 1.7rem; letter-spacing: -0.02em; margin: 0 0 4px; }
+      h2 { font-size: 1.2rem; margin: 2.4em 0 0.4em; letter-spacing: -0.01em; }
+      h3 { font-size: 1.02rem; margin: 1.4em 0 0.3em; }
+      .updated { color: #5b6675; margin-top: 0; }
+      .lead {
+        background: #f3f5f9; border: 1px solid #dde2ea; border-radius: 12px;
+        padding: 16px 18px; margin: 24px 0;
+      }
+      .nav { margin: 8px 0 24px; font-size: 0.95rem; }
+      hr { border: none; border-top: 1px solid #dde2ea; margin: 4em 0 3em; }
+      code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9em; }
+      a { color: #2f6bdc; }
+      ul { padding-left: 1.2em; }
+      li { margin: 0.3em 0; }
+      footer { margin-top: 3em; color: #5b6675; font-size: 0.9rem; }
+      @media (prefers-color-scheme: dark) {
+        body { color: #e9eef5; background: #0e1116; }
+        .updated, footer { color: #97a3b4; }
+        .lead { background: #161b23; border-color: #232c38; }
+        hr { border-top-color: #232c38; }
+        a { color: #5b8cf0; }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ==================== ITALIANO ==================== -->
+    <h1 id="it">Informativa sulla privacy — Cassaforte</h1>
+    <p class="updated">In vigore dal <strong>30 agosto 2026</strong></p>
+    <p class="nav"><strong>Italiano</strong> · <a href="#en">English</a></p>
+
+    <p class="lead">
+      Cassaforte cifra foto, video e documenti <strong>sul tuo dispositivo</strong> e li conserva
+      solo lì. Non abbiamo server, non c'è un account, non raccogliamo i tuoi contenuti e non li
+      trasmettiamo a nessuno. Gli unici trattamenti da parte di terzi riguardano la pubblicità
+      (Google AdMob, solo nella versione gratuita) e — solo se attivi il travestimento «Meteo» —
+      un servizio meteo pubblico. La pubblicità sparisce del tutto con l'acquisto Premium.
+    </p>
+
+    <h2>1. Titolare del trattamento</h2>
+    <p>
+      Titolare del trattamento dei dati personali eventualmente trattati tramite l'app Cassaforte
+      («l'app», identificativo <code>com.pixelroom.app</code>) è <strong>Alexander Stones</strong>,
+       Piazza Luigi Pirandello, 24, 92100 Agrigento, Italia .<br />
+      Contatto per qualsiasi questione relativa a questa informativa e all'esercizio dei tuoi
+      diritti: <a href="mailto:alexanderstones.dev@gmail.com">alexanderstones.dev@gmail.com</a>.
+    </p>
+    <p>
+      Per il trattamento svolto ai fini pubblicitari, Google Ireland Ltd. agisce come titolare
+      autonomo secondo le proprie condizioni (vedi la sezione 6).
+    </p>
+
+    <h2>2. Contenuti che metti nel vault (foto, video, documenti)</h2>
+    <p>
+      I file che importi vengono cifrati con <strong>AES-256</strong> e salvati esclusivamente
+      nell'area privata dell'app sul dispositivo. La chiave di cifratura deriva dal tuo PIN;
+      se attivi lo sblocco biometrico, la chiave è protetta dal portachiavi hardware del sistema
+      operativo (Android Keystore). La chiave <strong>non lascia mai il telefono</strong>.
+    </p>
+    <p>
+      Non abbiamo alcun accesso a questi file: non li vediamo, non li riceviamo, non li
+      conserviamo su alcun server. Non possiamo recuperarli né decifrarli. Disinstallando l'app,
+      o cancellando i dati dell'app dalle impostazioni Android, questi contenuti vengono eliminati
+      dal sistema operativo. L'anteprima dei PDF avviene interamente in locale su una copia
+      temporanea che viene rimossa alla chiusura.
+    </p>
+
+    <h2>3. PIN e sblocco biometrico</h2>
+    <p>
+      Il PIN non viene mai memorizzato in chiaro né trasmesso: è usato solo in locale per
+      derivare la chiave di cifratura. Il dato biometrico (impronta/volto) è gestito
+      integralmente dal sistema operativo; l'app non lo vede e non lo tratta.
+    </p>
+
+    <h2>4. Permessi richiesti</h2>
+    <ul>
+      <li>
+        <strong>Foto e video</strong> (<code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VIDEO</code>
+        e varianti): per mostrarti la galleria del dispositivo, farti scegliere cosa importare e
+        rimuovere l'originale dopo l'importazione. Le foto e i video non vengono inviati a nessuno.
+      </li>
+      <li>
+        <strong>Selezione di documenti</strong>: avviene tramite il selettore di file di sistema
+        di Android; l'app non richiede un permesso di accesso allo spazio di archiviazione e legge
+        solo i file che scegli espressamente.
+      </li>
+      <li>
+        <strong>Internet</strong> (<code>INTERNET</code>): usato unicamente per la pubblicità
+        (versione gratuita) e per il servizio meteo del travestimento «Meteo» (se attivo). Nessun
+        contenuto del vault transita in rete.
+      </li>
+    </ul>
+
+    <h2>5. Nessuna analitica, nessun tracciamento</h2>
+    <p>
+      L'app non integra strumenti di analisi statistica, tracciamento o segnalazione dei crash.
+      Non raccogliamo identificativi, cronologia d'uso, diagnostica o la tua posizione.
+    </p>
+
+    <h2>6. Pubblicità (solo versione gratuita)</h2>
+    <p>
+      La versione gratuita mostra annunci a schermo intero (interstitial) forniti da
+      <strong>Google AdMob</strong>. Per erogare e misurare gli annunci, Google può trattare dati
+      quali l'identificativo pubblicitario del dispositivo, l'indirizzo IP (da cui una posizione
+      approssimativa), informazioni sul dispositivo e le interazioni con l'annuncio. Questo
+      trattamento è svolto da Google in qualità di titolare autonomo ed è disciplinato da:
+    </p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Norme sulla privacy di Google</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites">Come Google utilizza i dati</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543">AdMob e la privacy</a></li>
+    </ul>
+    <p>
+      Dove richiesto dalla normativa (Spazio economico europeo, Regno Unito, Svizzera), al primo
+      avvio viene mostrato un modulo di consenso tramite la <strong>Google User Messaging
+      Platform</strong>. La <strong>base giuridica</strong> per gli annunci personalizzati e per
+      la memorizzazione/lettura di informazioni sul dispositivo a fini pubblicitari è il tuo
+      <strong>consenso</strong>, revocabile in qualsiasi momento (vedi sezione 11). Se non
+      acconsenti, vengono richiesti soltanto annunci non personalizzati.
+    </p>
+    <p>
+      L'acquisto <strong>Premium rimuove completamente la pubblicità</strong> e con essa ogni
+      trattamento di dati da parte di AdMob all'interno dell'app.
+    </p>
+
+    <h2>7. Acquisto Premium</h2>
+    <p>
+      L'acquisto una tantum «Premium» è gestito da <strong>Google Play Billing</strong>. Non
+      riceviamo né conserviamo i tuoi dati di pagamento: sono trattati da Google secondo la
+      propria informativa. L'app memorizza in locale solo un indicatore «Premium attivo» e, per
+      il ripristino dell'acquisto, verifica l'entitlement tramite Google Play. Base giuridica:
+      esecuzione del contratto.
+    </p>
+
+    <h2>8. Travestimento «Meteo» (opzionale, disattivato di serie)</h2>
+    <p>
+      Se attivi il travestimento «Meteo» dalle impostazioni, la schermata-esca mostra le
+      previsioni per la città che scegli, ottenute dall'API pubblica
+      <a href="https://open-meteo.com">Open-Meteo</a> (senza account e senza chiave API). Alla
+      richiesta vengono inviate a Open-Meteo le coordinate della città selezionata e, per la
+      ricerca città, il testo che digiti; non vengono inviati identificativi né alcun dato del
+      vault. Il risultato è memorizzato solo in locale. Vedi le
+      <a href="https://open-meteo.com/en/terms">condizioni di Open-Meteo</a>. Base giuridica:
+      esecuzione della funzione da te richiesta.
+    </p>
+
+    <h2>9. Backup del vault</h2>
+    <p>
+      La funzione «Esporta backup» crea un unico file (i contenuti restano cifrati) che
+      <strong>tu</strong> salvi nella posizione che scegli tramite il selettore di sistema
+      (memoria del dispositivo, scheda SD, un tuo servizio cloud, ecc.). Il file resta sotto il
+      tuo controllo; noi non lo vediamo e non lo riceviamo. Custodiscilo come custodiresti le
+      chiavi di casa.
+    </p>
+
+    <h2>10. Conservazione dei dati</h2>
+    <p>
+      I contenuti del vault restano sul dispositivo finché non li elimini o non disinstalli
+      l'app. Gli elementi spostati nel cestino interno vengono cancellati definitivamente dopo
+      7 giorni. Non conserviamo dati personali su nostri sistemi perché non ne raccogliamo. I
+      dati trattati da Google (pubblicità, acquisti) sono conservati da Google secondo i propri
+      criteri.
+    </p>
+
+    <h2>11. I tuoi diritti</h2>
+    <p>
+      Ai sensi del Regolamento (UE) 2016/679 (GDPR) hai diritto di accesso, rettifica,
+      cancellazione, limitazione, portabilità e opposizione, oltre al diritto di revocare in
+      qualsiasi momento il consenso prestato, senza pregiudicare la liceità del trattamento
+      effettuato prima della revoca. In pratica:
+    </p>
+    <ul>
+      <li>
+        <strong>Consenso alla pubblicità</strong>: puoi modificarlo o revocarlo tramite il
+        modulo di consenso riproposto dall'app, oppure reimpostando l'identificativo
+        pubblicitario / disattivando gli annunci personalizzati nelle impostazioni di Android.
+      </li>
+      <li>
+        <strong>Cancellazione</strong>: poiché non deteniamo tuoi dati, la cancellazione dei
+        contenuti avviene eliminandoli dall'app o disinstallandola. Per i dati trattati da
+        Google rivolgi la richiesta a Google.
+      </li>
+      <li>
+        Per ogni altra richiesta o chiarimento puoi scrivere a
+        <a href="mailto:alexanderstones.dev@gmail.com">alexanderstones.dev@gmail.com</a>.
+      </li>
+    </ul>
+    <p>
+      Hai inoltre il diritto di proporre reclamo all'autorità di controllo competente. In Italia:
+      <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>.
+    </p>
+
+    <h2>12. Trasferimenti extra-SEE</h2>
+    <p>
+      Noi non trasferiamo dati personali. I fornitori terzi indicati (Google, Open-Meteo) possono
+      trattare dati anche al di fuori dello Spazio economico europeo; tali trasferimenti sono
+      disciplinati dalle garanzie previste da questi fornitori (ad es. clausole contrattuali
+      standard della Commissione europea), descritte nelle rispettive informative.
+    </p>
+
+    <h2>13. Minori</h2>
+    <p>
+      Cassaforte non è rivolta a minori di 14 anni e non raccoglie consapevolmente dati di
+      minori.
+    </p>
+
+    <h2>14. Modifiche a questa informativa</h2>
+    <p>
+      Eventuali aggiornamenti saranno pubblicati a questo indirizzo (<strong>[URL]</strong>) con
+      la nuova data di entrata in vigore. Ti invitiamo a consultarla periodicamente.
+    </p>
+
+    <h2>15. Contatti</h2>
+    <p>
+      <strong> Alexander Stones </strong> — <a href="mailto: Alexander Stones ">alexanderstones.dev@gmail.com</a> — Piazza Luigi Pirandello, 24, 92100 Agrigento, Italia.
+    </p>
+
+    <hr />
+
+    <!-- ==================== ENGLISH ==================== -->
+    <h1 id="en">Privacy Policy — Vault (Cassaforte)</h1>
+    <p class="updated">Effective from <strong>30 August 2026</strong></p>
+    <p class="nav"><a href="#it">Italiano</a> · <strong>English</strong></p>
+
+    <p class="lead">
+      Vault encrypts photos, videos and documents <strong>on your device</strong> and keeps them
+      only there. We have no servers, there is no account, we do not collect your content and we
+      do not transmit it to anyone. The only third-party processing concerns advertising (Google
+      AdMob, free version only) and — only if you enable the “Weather” disguise — a public
+      weather service. Advertising disappears entirely with the Premium purchase.
+    </p>
+
+    <h2>1. Data controller</h2>
+    <p>
+      The controller for any personal data processed through the Vault app (“the app”, package
+      id <code>com.pixelroom.app</code>) is <strong>Alexander Stones</strong>, Piazza Luigi Pirandello, 24, Italia.<br />
+      Contact for this policy and for exercising your rights:
+      <a href="mailto:alexanderstones.dev@gmail.com">alexanderstones.dev@gmail.com</a>.
+    </p>
+    <p>
+      For processing carried out for advertising purposes, Google Ireland Ltd. acts as an
+      independent controller under its own terms (see section 6).
+    </p>
+
+    <h2>2. Content you put in the vault (photos, videos, documents)</h2>
+    <p>
+      Files you import are encrypted with <strong>AES-256</strong> and stored solely in the app's
+      private area on the device. The encryption key is derived from your PIN; if you enable
+      biometric unlock, the key is protected by the operating system's hardware keystore (Android
+      Keystore). The key <strong>never leaves the phone</strong>.
+    </p>
+    <p>
+      We have no access to these files: we do not see them, receive them, or store them on any
+      server. We cannot recover or decrypt them. Uninstalling the app, or clearing the app's data
+      from Android settings, removes this content via the operating system. PDF preview happens
+      entirely on-device on a temporary copy that is deleted when you close it.
+    </p>
+
+    <h2>3. PIN and biometric unlock</h2>
+    <p>
+      The PIN is never stored in clear text or transmitted: it is used only locally to derive the
+      encryption key. Biometric data (fingerprint/face) is handled entirely by the operating
+      system; the app does not see or process it.
+    </p>
+
+    <h2>4. Permissions requested</h2>
+    <ul>
+      <li>
+        <strong>Photos and videos</strong> (<code>READ_MEDIA_IMAGES</code>,
+        <code>READ_MEDIA_VIDEO</code> and variants): to show you the device gallery, let you
+        choose what to import, and remove the original after import. Photos and videos are not
+        sent anywhere.
+      </li>
+      <li>
+        <strong>Document selection</strong>: done through Android's system file picker; the app
+        requests no storage permission and reads only the files you explicitly select.
+      </li>
+      <li>
+        <strong>Internet</strong> (<code>INTERNET</code>): used only for advertising (free
+        version) and for the “Weather” disguise's weather service (if enabled). No vault content
+        travels over the network.
+      </li>
+    </ul>
+
+    <h2>5. No analytics, no tracking</h2>
+    <p>
+      The app integrates no analytics, tracking or crash-reporting tools. We do not collect
+      identifiers, usage history, diagnostics or your location.
+    </p>
+
+    <h2>6. Advertising (free version only)</h2>
+    <p>
+      The free version shows full-screen (interstitial) ads provided by <strong>Google
+      AdMob</strong>. To serve and measure ads, Google may process data such as the device
+      advertising identifier, IP address (from which an approximate location), device information
+      and ad interactions. This processing is carried out by Google as an independent controller
+      and is governed by:
+    </p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses data</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543">AdMob and privacy</a></li>
+    </ul>
+    <p>
+      Where required by law (European Economic Area, United Kingdom, Switzerland), a consent form
+      is shown at first launch via the <strong>Google User Messaging Platform</strong>. The
+      <strong>legal basis</strong> for personalised ads and for storing/reading information on the
+      device for advertising purposes is your <strong>consent</strong>, which you may withdraw at
+      any time (see section 11). If you do not consent, only non-personalised ads are requested.
+    </p>
+    <p>
+      The <strong>Premium purchase removes advertising entirely</strong>, and with it any data
+      processing by AdMob within the app.
+    </p>
+
+    <h2>7. Premium purchase</h2>
+    <p>
+      The one-time “Premium” purchase is handled by <strong>Google Play Billing</strong>. We do
+      not receive or store your payment data: it is processed by Google under its own policy. The
+      app stores only a local “Premium active” flag and, for purchase restoration, checks the
+      entitlement via Google Play. Legal basis: performance of a contract.
+    </p>
+
+    <h2>8. “Weather” disguise (optional, off by default)</h2>
+    <p>
+      If you enable the “Weather” disguise in settings, the decoy screen shows the forecast for a
+      city you choose, obtained from the public <a href="https://open-meteo.com">Open-Meteo</a>
+      API (no account, no API key). Requests send Open-Meteo the coordinates of the selected city
+      and, for city search, the text you type; no identifiers and no vault data are sent. The
+      result is stored only locally. See
+      <a href="https://open-meteo.com/en/terms">Open-Meteo's terms</a>. Legal basis: performance
+      of the function you requested.
+    </p>
+
+    <h2>9. Vault backup</h2>
+    <p>
+      The “Export backup” feature creates a single file (content stays encrypted) that
+      <strong>you</strong> save to a location of your choice via the system picker (device
+      storage, SD card, your own cloud, etc.). The file remains under your control; we neither see
+      nor receive it. Keep it as safely as you would keep your house keys.
+    </p>
+
+    <h2>10. Data retention</h2>
+    <p>
+      Vault content stays on the device until you delete it or uninstall the app. Items moved to
+      the in-app trash are permanently deleted after 7 days. We keep no personal data on our
+      systems because we collect none. Data processed by Google (advertising, purchases) is
+      retained by Google under its own criteria.
+    </p>
+
+    <h2>11. Your rights</h2>
+    <p>
+      Under Regulation (EU) 2016/679 (GDPR) you have the right of access, rectification, erasure,
+      restriction, portability and objection, as well as the right to withdraw consent at any
+      time without affecting the lawfulness of processing before withdrawal. In practice:
+    </p>
+    <ul>
+      <li>
+        <strong>Advertising consent</strong>: you can change or withdraw it via the consent form
+        re-presented by the app, or by resetting the advertising identifier / turning off
+        personalised ads in Android settings.
+      </li>
+      <li>
+        <strong>Erasure</strong>: since we hold no data of yours, erasing content is done by
+        deleting it in the app or uninstalling. For data processed by Google, address your
+        request to Google.
+      </li>
+      <li>
+        For any other request or clarification, write to <a href="mailto:alexanderstones.dev@gmail.com">alexanderstones.dev@gmail.com</a>.
+      </li>
+    </ul>
+    <p>
+      You also have the right to lodge a complaint with the competent supervisory authority. In
+      Italy: <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati
+      personali</a>.
+    </p>
+
+    <h2>12. Transfers outside the EEA</h2>
+    <p>
+      We transfer no personal data. The third-party providers named (Google, Open-Meteo) may
+      process data outside the European Economic Area; such transfers are governed by the
+      safeguards those providers put in place (e.g. the European Commission's Standard
+      Contractual Clauses), described in their respective policies.
+    </p>
+
+    <h2>13. Children</h2>
+    <p>
+      Vault is not directed at children under 14 and does not knowingly collect data from
+      children.
+    </p>
+
+    <h2>14. Changes to this policy</h2>
+    <p>
+      Any updates will be published at this address (<strong>[URL]</strong>) with the new
+      effective date. Please review it periodically.
+    </p>
+
+    <h2>15. Contact</h2>
+    <p>
+      <strong>Alexander Stones</strong> — <a href="mailto:alexanderstones.dev@gmail.com">alexanderstones.dev@gmail.com</a> — Piazza Luigi Pirandello, 24 92100 Agrigneto, Italia.
+    </p>
+
+    <footer>
+      Cassaforte / Vault · <code>com.pixelroom.app</code>
+    </footer>
+  </body>
+</html>
