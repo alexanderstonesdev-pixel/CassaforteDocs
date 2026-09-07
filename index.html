@@ -98,6 +98,13 @@
         solo i file che scegli espressamente.
       </li>
       <li>
+        <strong>Fotocamera</strong> (<code>CAMERA</code>): usata solo su tua azione, per scattare
+        una foto o registrare un video direttamente dall'app &mdash; lo scatto viene cifrato nel
+        vault e non passa mai dalla galleria del dispositivo &mdash; e, se attivi l'opzione
+        &laquo;foto dell'intruso&raquo; (disattivata di serie), per un singolo scatto dopo tre PIN
+        errati. Le immagini e i video non vengono inviati a nessuno.
+      </li>
+      <li>
         <strong>Internet</strong> (<code>INTERNET</code>): usato unicamente per la pubblicità
         (versione gratuita) e per il servizio meteo del travestimento «Meteo» (se attivo). Nessun
         contenuto del vault transita in rete.
@@ -148,13 +155,14 @@
     <h2>8. Travestimento «Meteo» (opzionale, disattivato di serie)</h2>
     <p>
       Se attivi il travestimento «Meteo» dalle impostazioni, la schermata-esca mostra le
-      previsioni per la città che scegli, ottenute dall'API pubblica
-      <a href="https://open-meteo.com">Open-Meteo</a> (senza account e senza chiave API). Alla
-      richiesta vengono inviate a Open-Meteo le coordinate della città selezionata e, per la
-      ricerca città, il testo che digiti; non vengono inviati identificativi né alcun dato del
-      vault. Il risultato è memorizzato solo in locale. Vedi le
-      <a href="https://open-meteo.com/en/terms">condizioni di Open-Meteo</a>. Base giuridica:
-      esecuzione della funzione da te richiesta.
+      previsioni per la città che scegli, ottenute dalle API pubbliche di
+      <a href="https://api.met.no">MET Norway</a> (previsioni meteo) e
+      <a href="https://photon.komoot.io">Photon</a>, basato sui dati di OpenStreetMap
+      (ricerca città), entrambe senza account e senza chiave API. Alla richiesta vengono inviate
+      le coordinate della città selezionata e, per la ricerca, il testo che digiti; non vengono
+      inviati identificativi né alcun dato del vault. Il risultato è memorizzato solo in locale.
+      Vedi le <a href="https://api.met.no/doc/TermsOfService">condizioni di MET Norway</a>.
+      Base giuridica: esecuzione della funzione da te richiesta.
     </p>
 
     <h2>9. Backup del vault</h2>
@@ -205,8 +213,9 @@
 
     <h2>12. Trasferimenti extra-SEE</h2>
     <p>
-      Noi non trasferiamo dati personali. I fornitori terzi indicati (Google, Open-Meteo) possono
-      trattare dati anche al di fuori dello Spazio economico europeo; tali trasferimenti sono
+      Noi non trasferiamo dati personali. I fornitori terzi indicati (Google, MET Norway,
+      Photon) possono trattare dati anche al di fuori dello Spazio economico
+      europeo (MET Norway ha sede in Norvegia/SEE, Photon in Germania/UE); tali trasferimenti sono
       disciplinati dalle garanzie previste da questi fornitori (ad es. clausole contrattuali
       standard della Commissione europea), descritte nelle rispettive informative.
     </p>
@@ -219,7 +228,7 @@
 
     <h2>14. Modifiche a questa informativa</h2>
     <p>
-      Eventuali aggiornamenti saranno pubblicati a questo indirizzo (<strong>https://alexanderstonesdev-pixel.github.io/CassaforteDocs/</strong>) con
+      Eventuali aggiornamenti saranno pubblicati a questo indirizzo (<strong>https://alexanderstonesdev-pixel.github.io/CassaforteDocs</strong>) con
       la nuova data di entrata in vigore. Ti invitiamo a consultarla periodicamente.
     </p>
 
@@ -289,6 +298,13 @@
         requests no storage permission and reads only the files you explicitly select.
       </li>
       <li>
+        <strong>Camera</strong> (<code>CAMERA</code>): used only on your action, to take a photo
+        or record a video straight from the app &mdash; the capture is encrypted into the vault
+        and never goes through the device gallery &mdash; and, if you enable the “intruder photo”
+        option (off by default), for a single shot after three wrong PIN attempts. Images and
+        videos are not sent anywhere.
+      </li>
+      <li>
         <strong>Internet</strong> (<code>INTERNET</code>): used only for advertising (free
         version) and for the “Weather” disguise's weather service (if enabled). No vault content
         travels over the network.
@@ -337,12 +353,14 @@
     <h2>8. “Weather” disguise (optional, off by default)</h2>
     <p>
       If you enable the “Weather” disguise in settings, the decoy screen shows the forecast for a
-      city you choose, obtained from the public <a href="https://open-meteo.com">Open-Meteo</a>
-      API (no account, no API key). Requests send Open-Meteo the coordinates of the selected city
-      and, for city search, the text you type; no identifiers and no vault data are sent. The
+      city you choose, obtained from the public APIs of
+      <a href="https://api.met.no">MET Norway</a> (weather forecast) and
+      <a href="https://photon.komoot.io">Photon</a>, based on OpenStreetMap data (city search),
+      both with no account and no API key. Requests send the coordinates of the selected city
+      and, for search, the text you type; no identifiers and no vault data are sent. The
       result is stored only locally. See
-      <a href="https://open-meteo.com/en/terms">Open-Meteo's terms</a>. Legal basis: performance
-      of the function you requested.
+      <a href="https://api.met.no/doc/TermsOfService">MET Norway's terms</a>.
+      Legal basis: performance of the function you requested.
     </p>
 
     <h2>9. Vault backup</h2>
@@ -390,8 +408,9 @@
 
     <h2>12. Transfers outside the EEA</h2>
     <p>
-      We transfer no personal data. The third-party providers named (Google, Open-Meteo) may
-      process data outside the European Economic Area; such transfers are governed by the
+      We transfer no personal data. The third-party providers named (Google, MET Norway,
+      Photon) may process data outside the European Economic Area (MET Norway is based in
+      Norway/EEA, Photon in Germany/EU); such transfers are governed by the
       safeguards those providers put in place (e.g. the European Commission's Standard
       Contractual Clauses), described in their respective policies.
     </p>
